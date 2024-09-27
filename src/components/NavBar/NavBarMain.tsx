@@ -19,7 +19,7 @@ const NavBarMain = () => {
   ];
 
   return (
-    <nav className="w-full h-[93px] bg-[#0063af] flex justify-between items-center px-8 lg:px-32 relative z-[1000]">
+    <nav className="w-full h-[93px] bg-gradient-to-r from-[#0CAE01] to-[#91AE00] flex justify-between items-center px-8 lg:px-32 relative z-[1000]">
       {/* Krakow Logo */}
       <img src={KrkLogo} alt="Krakow logo" />
 
@@ -58,7 +58,7 @@ const NavBarMain = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="absolute top-[93px] left-0 w-full bg-[#0063af] flex flex-col space-y-4 p-4 lg:hidden z-[1100]">
+        <ul className="absolute top-[93px] left-0 w-full bg-[#0CAE01] flex flex-col space-y-4 p-4 lg:hidden z-[1100]">
           {menuItems.map((item, index) => (
             <li
               key={index}

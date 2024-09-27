@@ -95,18 +95,18 @@ const Districts = ({ mapContainerRef }: Props) => {
           >
             &times;
           </button>
-          <p className="text-black text-sm font-bold font-['Lato'] mt-1">
+          <p className="text-black text-base xl:text-lg font-bold font-['Lato'] mt-1 underline">
             {selectedDistrict.name}
           </p>
-          <p className="text-black text-sm font-['Lato']">
+          <p className="text-black text-sm xl:text-base font-['Lato']">
             Powierzchnie zielone: &nbsp;
-            <span className="text-[#91ae00] text-base font-bold font-['Lato']">
+            <span className="text-[#91ae00] text-base xl:text-lg font-bold font-['Lato']">
               {selectedDistrict.forestation} ha
             </span>
           </p>
-          <p className="text-black text-sm font-['Lato']">
+          <p className="text-black text-sm xl:text-base font-['Lato']">
             Pochłanianie CO₂: &nbsp;
-            <p className="text-[#91ae00] text-base font-bold font-['Lato']">
+            <p className="text-[#91ae00] text-base xl:text-lg font-bold font-['Lato']">
               {Number(selectedDistrict.forestation) * 7} ton CO₂/rok
             </p>
           </p>

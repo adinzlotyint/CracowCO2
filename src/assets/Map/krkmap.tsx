@@ -13,9 +13,9 @@ const krkmap = ({ className }: Props) => {
         height="100%"
         fill="none"
       >
-        <g opacity=".4" style={{ mixBlendMode: "luminosity" }}>
+        <g opacity="1">
           <g clipPath="url(#a)">
-            <mask id="b" fill="#fff">
+            <mask id="b" fill="none">
               <path d="M0 0h1260v947H0V0Z" />
             </mask>
             <path fill="#fff" d="M0 0h1260v947H0V0Z" />
@@ -24,6 +24,17 @@ const krkmap = ({ className }: Props) => {
               fillRule="evenodd"
               d="M0 947V0h1260v947H0Z"
               clipRule="evenodd"
+            />
+
+            <rect
+              x="0"
+              y="0"
+              width="100%"
+              height="100%"
+              fill="#BDFE67"
+              opacity="0.2"
+              stroke="black"
+              stroke-width="1"
             />
             <path
               fill="#FEFEE9"

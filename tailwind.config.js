@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        leaves: "url('./src/assets/leaves.webp')",
+      },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
       },

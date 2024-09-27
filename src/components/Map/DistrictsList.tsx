@@ -88,9 +88,9 @@ const DistrictsList = ({
         onClick={(e) => handleDistrictClick("Bronowice", e)}
       />
       <Zwierzyniec
-        className="absolute left-[8.5%] w-[25%] h-[auto] hover:z-10"
+        className="absolute left-[8.4%] w-[25.3%] h-[auto] hover:z-10"
         style={{
-          top: `calc(30.7% - ${getScaledCompensation(30.7, 570)}px)`,
+          top: `calc(30.6% - ${getScaledCompensation(30.7, 570)}px)`,
           pointerEvents: "none",
         }}
         onClick={(e) => handleDistrictClick("Zwierzyniec", e)}
@@ -138,7 +138,7 @@ const DistrictsList = ({
       <Czyzyny
         className="absolute left-[44.2%] w-[13.8%] h-[auto] hover:z-10"
         style={{
-          top: `calc(30.4% - ${getScaledCompensation(58.5, 300)}px)`,
+          top: `calc(30.5% - ${getScaledCompensation(58.5, 300)}px)`,
           pointerEvents: "none",
         }}
         onClick={(e) => handleDistrictClick("Czyzyny", e)}

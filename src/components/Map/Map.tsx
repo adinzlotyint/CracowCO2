@@ -1,7 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import Krkmap from "../../assets/Map/krkmap.tsx";
-import DekorLeft from "../../assets/DekorLeft.svg";
-import DekorRight from "../../assets/DekorRight.svg";
 import Districts from "./Districts.tsx";
 import ClickIcon from "./ClickIcon.tsx";
 
@@ -29,31 +27,16 @@ const Map = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-[minmax(0px,1fr)_auto_minmax(0px,1fr)] h-full w-full">
-      <div
-        className="block col-start-1 bg-cover bg-no-repeat"
-        style={{
-          backgroundImage: `url(${DekorLeft})`,
-          backgroundPosition: "right center",
-        }}
-      ></div>
+    <div className="grid grid-cols-[minmax(0px,1fr)_auto_minmax(0px,1fr)] h-full w-full bg-leaves">
       <div className="col-start-2 flex items-center justify-center relative">
-        <div className="relative w-full" style={{ height: availableHeight }}>
+        <div className="relative w-full " style={{ height: availableHeight }}>
           <div ref={mapContainerRef} className="relative w-full h-full">
             <ClickIcon />
-            <Krkmap className="w-full h-full bg-[#F9FFEC]" />
+            <Krkmap className="w-full h-full" />
             <Districts mapContainerRef={mapContainerRef} />
           </div>
         </div>
       </div>
-
-      <div
-        className="block col-start-3 bg-cover bg-no-repeat"
-        style={{
-          backgroundImage: `url(${DekorRight})`,
-          backgroundPosition: "left center",
-        }}
-      ></div>
     </div>
   );
 };
