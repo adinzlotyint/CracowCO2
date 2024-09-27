@@ -1,0 +1,74 @@
+{
+  "Zwierzyniec": {
+    "name": "Zwierzyniec",
+    "forestation": "580"
+  },
+  "Debniki": {
+    "name": "Dębniki",
+    "forestation": "100"
+  },
+  "Bronowice": {
+    "name": "Bronowice",
+    "forestation": "40"
+  },
+  "NowaHuta": {
+    "name": "Nowa Huta",
+    "forestation": "150"
+  },
+  "Czyzyny": {
+    "name": "Czyżyny",
+    "forestation": "75"
+  },
+  "PradnikBialy": {
+    "name": "Prądnik Biały",
+    "forestation": "45"
+  },
+  "LagiewnikiBorekFalecki": {
+    "name": "Łagiewniki-Borek Fałęcki",
+    "forestation": "30"
+  },
+  "BiezanowProkocim": {
+    "name": "Bieżanów-Prokocim",
+    "forestation": "25"
+  },
+  "Podgorze": {
+    "name": "Podgórze",
+    "forestation": "30"
+  },
+  "Grzegorzki": {
+    "name": "Grzegórzki",
+    "forestation": "65"
+  },
+  "Swoszowice": {
+    "name": "Swoszowice",
+    "forestation": "35"
+  },
+  "Mistrzejowice": {
+    "name": "Mistrzejowice",
+    "forestation": "25"
+  },
+  "Bienczyce": {
+    "name": "Bieńczyce",
+    "forestation": "20"
+  },
+  "StareMiasto": {
+    "name": "Stare Miasto",
+    "forestation": "22"
+  },
+  "PradnikCzerwony": {
+    "name": "Prądnik Czerwony",
+    "forestation": "18"
+  },
+  "PodgorzeDuchackie": {
+    "name": "Podgórze Duchackie",
+    "forestation": "12"
+  },
+  "Krowodrza": {
+    "name": "Krowodrza",
+    "forestation": "22"
+  },
+  "WzgorzaKrzeslawickie": {
+    "name": "Wzgórza Krzesławickie",
+    "forestation": "12"
+  }
+}
